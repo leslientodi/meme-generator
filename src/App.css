@@ -6,6 +6,7 @@ body {
   display: flex;
   background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
   color: white;
+  margin: -10px;
 }
 
 .header > img {
@@ -18,5 +19,19 @@ body {
 }
 
 form {
-  margin-top: 50px;
+  margin: 50px 30px;
+}
+
+form > input {
+  margin: 20px;
+  height: 30px;
+  width: 200px;
+}
+
+form > button {
+  margin: 0px 20px;
+  height: 30px;
+  width: 450px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: white;
 }
