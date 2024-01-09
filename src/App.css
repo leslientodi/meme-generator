@@ -26,6 +26,8 @@ form > input {
   margin: 20px;
   height: 30px;
   width: 200px;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
 }
 
 form > button {
@@ -34,4 +36,6 @@ form > button {
   width: 450px;
   background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
   color: white;
+  border: none;
+  border-radius: 5px;
 }
